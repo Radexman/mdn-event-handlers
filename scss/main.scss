@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: rgb(50,68,85);
+    background: linear-gradient(90deg, rgba(50,68,85,1) 0%, rgba(108,68,153,1) 92%);
+    text-align: center;
+}
+
+.tile {
+    height: 100px;
+    width: 25%;
+    float: left;
+}
